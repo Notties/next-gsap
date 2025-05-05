@@ -7,6 +7,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SvgScrollAnimation from "@/components/gsap/SvgScrollAnimation";
+import TextRevealScroll from "@/components/gsap/TextRevealScroll";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -350,6 +351,8 @@ export default function Home() {
 
       {/* --- Section 7 Svg Scroll Animation --- */}
       <SvgScrollAnimation />
+
+      <TextRevealScroll />
 
       <footer className="h-60 bg-slate-800 text-white flex items-center justify-center text-xl">
         End of Examples
